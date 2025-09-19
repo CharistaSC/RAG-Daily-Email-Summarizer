@@ -55,6 +55,8 @@ The current fetcher queries INBOX only and returns the latest messages; adjust m
 
 ### LLM Example Response in Markdown
 
+![Screenshot](image.png)
+
  Good Morning Bryon, here are the following for your day.
 
 ## Inbox
