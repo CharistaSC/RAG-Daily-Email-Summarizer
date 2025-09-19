@@ -53,7 +53,7 @@ Ensure the time window actually contains events; getCalendar_v2 prints a count a
 Gmail results empty
 The current fetcher queries INBOX only and returns the latest messages; adjust max_results or add a query filter (e.g., labels) if required. (getMail.py)
 
-### LLM Response in Markdown
+### LLM Example Response in Markdown
 
  Good Morning Bryon, here are the following for your day.
 
