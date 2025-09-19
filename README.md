@@ -1,4 +1,4 @@
-Inbox + Calendar Summariser (Gmail + Google Calendar + LLM)
+### Inbox + Calendar Summariser (Gmail + Google Calendar + LLM)
 
 A tiny Python toolchain that:
 - reads recent Gmail messages,
@@ -52,3 +52,22 @@ Ensure the time window actually contains events; getCalendar_v2 prints a count a
 
 Gmail results empty
 The current fetcher queries INBOX only and returns the latest messages; adjust max_results or add a query filter (e.g., labels) if required. (getMail.py)
+
+### LLM Response
+
+ Good Morning Bryon, here are the following for your day.
+
+## Inbox
+1. **Meeting with CHMA**: Invitation from an unknown sender for a meeting at Thu Sep 18, 2025 2:30pm - 3:30pm (SGT). This might be related to the CHMA projects you've been working on.
+2. **Urgent: Missing documents for Drone T4 Proposal**: Yon Tian needs the missing documents for this proposal as soon as possible. The deadline could be imminent.
+3. **Invitation: System Maintenance Meeting**: You have been invited to a System Maintenance Meeting on Fri Sep 19, 2025 1pm - 2pm (SGT). This might require your attention for any system-related issues.
+4. **Documentation for the Trent Home Proposal**: Yon Tian is requesting documentation related to this proposal. It's important to ensure all necessary documents are provided for a successful submission.
+5. **Deadline Reminder for JJ5 Proposal**: This is a reminder about the upcoming deadline for the JJ5 Proposal on Sep 19, 2025. Make sure you have everything ready in time.
+
+## Today’s Schedule
+- Company Lunch Event: Sep 19, 2025 10:00am - 1:00pm (SGT)
+- System Maintenance Meeting: Sep 19, 2025 1:00pm - 2:00pm (SGT) (online)
+- Deadline for JJ5 Proposal: Sep 19, 2025 5:00pm - 6:00pm (SGT)
+
+## Plan for Today
+Prepare for the Company Lunch Event and the System Maintenance Meeting. Ensure all necessary documents are ready for the JJ5 Proposal deadline.
