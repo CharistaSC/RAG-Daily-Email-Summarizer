@@ -1,5 +1,5 @@
-from getMail_v2 import *
-from getCalendar_v2 import *
+from getMail import *
+from getCalendar import *
 from getResponse import *
 import io, sys
 from pathlib import Path
