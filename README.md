@@ -57,6 +57,8 @@ The current fetcher queries INBOX only and returns the latest messages; adjust m
 
 ![Screenshot](image.png)
 
+Image Text is as follows...
+
  Good Morning Bryon, here are the following for your day.
 
 ## Inbox
