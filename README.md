@@ -18,6 +18,13 @@ Prerequisites
 - Google Cloud OAuth client (client_secret_*.json)
 - Ollama installed locally (and a pulled model, e.g. mistral) for getResponse.py. 
 
+Future Plans
+- Craft and send email using  Google API on user's behalf
+- Accept or Decline Calendar Invites using Google Calendar API
+- Add a API for weather data
+- Craft a markdown list of functions for the LLM model with description and parameters
+- Craft more markdown prompts for use cases (Outing like walk in the park, holiday overseas, etc)
+
 Configuration
 1) OAuth / tokens
 Edit auth.py to point to your OAuth client JSON (or pass arguments when you call get_creds). The helper requests a superset of common scopes and caches tokens in token.json. First run: a browser window opens; the refresh token is stored for reuse. (auth.py)
@@ -61,24 +68,19 @@ Image Text is as follows...
 
  Good Morning Bryon, here are the following for your day.
 
-## Inbox
+Inbox
 1. **Meeting with CHMA**: Invitation from an unknown sender for a meeting at Thu Sep 18, 2025 2:30pm - 3:30pm (SGT). This might be related to the CHMA projects you've been working on.
 2. **Urgent: Missing documents for Drone T4 Proposal**: Yon Tian needs the missing documents for this proposal as soon as possible. The deadline could be imminent.
 3. **Invitation: System Maintenance Meeting**: You have been invited to a System Maintenance Meeting on Fri Sep 19, 2025 1pm - 2pm (SGT). This might require your attention for any system-related issues.
 4. **Documentation for the Trent Home Proposal**: Yon Tian is requesting documentation related to this proposal. It's important to ensure all necessary documents are provided for a successful submission.
 5. **Deadline Reminder for JJ5 Proposal**: This is a reminder about the upcoming deadline for the JJ5 Proposal on Sep 19, 2025. Make sure you have everything ready in time.
 
-## Today’s Schedule
+Today’s Schedule
 - Company Lunch Event: Sep 19, 2025 10:00am - 1:00pm (SGT)
 - System Maintenance Meeting: Sep 19, 2025 1:00pm - 2:00pm (SGT) (online)
 - Deadline for JJ5 Proposal: Sep 19, 2025 5:00pm - 6:00pm (SGT)
 
-## Plan for Today
+Plan for Today
 Prepare for the Company Lunch Event and the System Maintenance Meeting. Ensure all necessary documents are ready for the JJ5 Proposal deadline.
 
-Future Plans
-- Craft and send email using  Google API on user's behalf
-- Accept or Decline Calendar Invites using Google Calendar API
-- Add a API for weather data
-- Craft a markdown list of functions for the LLM model with description and parameters
-- Craft more markdown prompts for use cases (Outing like walk in the park, holiday overseas, etc)
+
