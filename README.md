@@ -75,3 +75,10 @@ Image Text is as follows...
 
 ## Plan for Today
 Prepare for the Company Lunch Event and the System Maintenance Meeting. Ensure all necessary documents are ready for the JJ5 Proposal deadline.
+
+Future Plans
+- Craft and send email using  Google API on user's behalf
+- Accept or Decline Calendar Invites using Google Calendar API
+- Add a API for weather data
+- Craft a markdown list of functions for the LLM model with description and parameters
+- Craft more markdown prompts for use cases (Outing like walk in the park, holiday overseas, etc)
